@@ -6,6 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+header{
+  padding: 15px;
+}
 
 .menu{
   flex-grow: 0;
@@ -71,9 +74,11 @@
   background-color: brown;
   font-size: large;
   background-color: rgb(224, 191, 140);
+  padding: 125px;
 }
 
 h1{
+  width: 50%;
   text-align: center;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
@@ -90,6 +95,9 @@ h1{
 footer{
   display: flex;
   flex-direction: column;
+  background-color: #227e9c;
+  padding: 10px;
+
 }
 
 footer iframe{
@@ -97,7 +105,8 @@ footer iframe{
 }
 
 footer div a img{
-  width: 150px;
+  width: 75px;
+  padding: 15px;
 }
 
 .redes{
@@ -152,7 +161,6 @@ footer div a img{
   grid-template-rows: repeat(2,400px);
   margin: 1rem 3rem 3rem 3rem;
   gap: 1rem;  /*1rem = 16px por defecto*/
-  align-items: center;
   grid-template-areas: 
         "ul img1 img2"
         "ul img3 img4";
