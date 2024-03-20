@@ -1,0 +1,41 @@
+header{
+    padding: 15px;
+}
+
+.menu{
+    flex-grow: 0;
+    ul{
+        li{
+            a{
+            color: black;
+            font-size: 2rem;
+            text-decoration: none;
+            &:hover{
+                font-weight: bold;
+                }
+            }
+        }
+    }
+}
+  
+.menu .menu-ul {
+    column-gap: 20px;
+    align-items: end;
+    
+}
+
+.menu-header{
+    background-image: url(./../img/menu-hamburger.svg)
+}
+  
+.menu-button{
+    border: none;
+    &:focus{
+        box-shadow: none;
+    }
+}
+
+.padding-0{
+    padding: 0;
+}
+

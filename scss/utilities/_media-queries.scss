@@ -1,0 +1,38 @@
+@media screen and (max-width:991px){
+    .menu{
+      position: absolute;
+      top: 150px;
+      background-color: aliceblue;
+      width: 100%;
+    }
+  
+    .galeria, .fotos-local{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4,400px);
+    }
+  
+    .fotos-local{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4,400px);
+      grid-template-areas: 
+      "img1"
+      "img2"
+      "img3"
+      "img4";
+  }
+  
+    .grid-productos{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4,400px);
+      grid-template-areas: 
+      "ul"
+      "img1"
+      "img2"
+      "img3"
+      "img4";
+    }
+  
+    .nosotros{
+      padding: 80px;
+    }
+}

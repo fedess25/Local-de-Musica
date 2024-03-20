@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #227e9c;
+    padding: 10px;
+    iframe{
+        width: 100%;
+    }
+    a{
+    img{
+        width: 75px;
+        padding: 15px;
+       }
+    }
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-start;
+}
+
