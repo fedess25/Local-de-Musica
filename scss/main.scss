@@ -1,3 +1,6 @@
+@import "utilities/variables";
+@import "utilities/mixin";
+@import "utilities/extends";
 @import "utilities/reset";
 @import "utilities/globales";
 @import "components/header";
@@ -6,6 +9,7 @@
 @import "pages/main-nosotros";
 @import "pages/main-galeria";
 @import "pages/main-productos";
+@import "pages/main-contacto";
 @import "utilities/media-queries";
 
 
