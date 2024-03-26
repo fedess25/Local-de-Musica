@@ -83,6 +83,7 @@ footer a img {
 .titulos {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
 }
@@ -168,9 +169,25 @@ footer a img {
 .contacto {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 32px;
   background-color: rgb(224, 191, 140);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 16px;
+  padding-top: 32px;
+}
+
+#comentario {
+  resize: none;
+  height: 150px;
+  width: 300px;
 }
 
 @media screen and (max-width: 991px) {

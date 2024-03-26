@@ -6,7 +6,18 @@
     background-color: $color-de-fondo;
 }
 
+.formulario{
+    @include flex(column, center, flex-end);
+    row-gap: 16px;
+    padding-top: 32px;
+}
 
+#comentario{
+    resize: none;
+    height: 150px;
+    width: 300px;
+
+}
 
 
 
